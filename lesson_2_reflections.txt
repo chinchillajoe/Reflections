@@ -1,18 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it? you have to do it so you can save commits on it.
 
 How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+What value do you think it offers? you can not save useless unchanged code, and only save the code that was changed
 
 How can you use the staging area to make sure you have one commit per logical
-change?
+change? you can use diff to see what changes were made between the staging area and the commit
 
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organized? How would branches help? when you are testing something you dont know will work or not
 
-How do the diagrams help you visualize the branch structure?
+How do the diagrams help you visualize the branch structure? It helps us understand how detached head works and how new branches do not affect the old ones
 
 What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+the diagram the way we do? it will combine the two codes from their heads, so they have the same base, but things are just added on
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+manually? pros of gits auto merging is it is very fast and easy. However doing manual merges will allow you to see the difference in code that was changed so you could catch something you did wrong
